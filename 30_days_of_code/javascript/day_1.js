@@ -1,5 +1,5 @@
-# Completed on 7/19/2016 by Theresa Thoraldson
-# source: https://www.hackerrank.com/challenges/30-data-types
+// Completed on 7/19/2016 by Theresa Thoraldson
+// source: https://www.hackerrank.com/challenges/30-data-types
 
 var x = Number(readLine(input_stdin));
 var y = Number(readLine(input_stdin));
