@@ -1,0 +1,5 @@
+-- Completed by Theresa Thoraldson on 8/9/2016 --
+-- source: https://www.hackerrank.com/challenges/japanese-cities-name --
+SELECT NAME
+FROM CITY
+WHERE (COUNTRYCODE = "JPN");
