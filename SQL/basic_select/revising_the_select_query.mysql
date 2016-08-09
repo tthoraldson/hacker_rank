@@ -1,0 +1,5 @@
+-- Solved by Theresa Thoraldson on 8/8/2015 --
+-- source: https://www.hackerrank.com/challenges/revising-the-select-query --
+SELECT *
+FROM city
+WHERE (POPULATION > 100000) AND (COUNTRYCODE = "USA");
