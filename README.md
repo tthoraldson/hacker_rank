@@ -3,3 +3,4 @@ all of my hackerrank solutions
 
 TO DO:
 - combine SQL files
+- better filing system
