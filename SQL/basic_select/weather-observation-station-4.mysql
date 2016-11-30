@@ -1,5 +1,0 @@
--- Completed by Theresa Thoraldson on 10/15/2016 --
--- source: https://www.hackerrank.com/challenges/weather-observation-station-3 --
-
-SELECT COUNT(CITY) - COUNT(DISTINCT CITY)
-FROM STATION;

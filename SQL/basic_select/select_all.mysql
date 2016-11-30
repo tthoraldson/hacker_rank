@@ -1,5 +1,0 @@
-ompleted by Theresa Thoraldson on 8/9/2016 --
--- source: https://www.hackerrank.com/challenges/select-all-sql --
-
-SELECT *
-FROM CITY;
