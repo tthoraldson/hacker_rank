@@ -2,5 +2,5 @@
 all of my hackerrank solutions
 
 TO DO:
-- combine SQL files
+- fix python files
 - better filing system
