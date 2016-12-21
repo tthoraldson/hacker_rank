@@ -44,6 +44,11 @@ WHERE MOD (ID, 2) = 0;
 SELECT COUNT(CITY) - COUNT(DISTINCT CITY)
 FROM STATION;
 
+-- weather observation station 6
+SELECT UNIQUE CITY
+FROM STATION
+WHERE SUBSTR(CITY, 1, 1) IN ('A', 'E', 'I', 'O', 'U');
+
 -- weather observation station 13
 SELECT ROUND(SUM(LAT_N), 4)
 FROM STATION
