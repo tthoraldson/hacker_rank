@@ -54,6 +54,11 @@ SELECT UNIQUE CITY
 FROM STATION
 WHERE LOWER(SUBSTR(CITY, -1, 1)) IN ('a', 'e', 'i', 'o', 'u');
 
+-- weather observation station 8
+SELECT UNIQUE CITY
+FROM STATION
+WHERE LOWER(SUBSTR(CITY, -1, 1)) IN ('a', 'e', 'i', 'o', 'u') AND LOWER(SUBSTR(CITY, 1, 1)) IN ('a', 'e', 'i', 'o', 'u');
+
 -- weather observation station 13
 SELECT ROUND(SUM(LAT_N), 4)
 FROM STATION
