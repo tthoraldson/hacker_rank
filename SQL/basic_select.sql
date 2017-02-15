@@ -46,7 +46,7 @@ FROM STATION;
 
 -- weather observation station 5
 -- struggle
-SELECT CITY, LENGTH(CITY)
+/*SELECT CITY, LENGTH(CITY)
 FROM STATION
 WHERE LENGTH(CITY)=(
     SELECT MAX(LENGTH(CITY))
@@ -56,7 +56,7 @@ OR LENGTH(CITY)=(
     SELECT MIN(LENGTH(CITY))
     FROM STATION
     )
-AND ROWNUM=1;
+AND ROWNUM=1;*/
 
 -- weather observation station 6
 SELECT UNIQUE CITY
